@@ -1,0 +1,183 @@
+.wrapper {
+	width: 20rem;
+	margin: 0.1rem auto;
+}
+
+.name {
+    width: 48%;
+    padding-right: 2px;
+    }
+    
+.mail {
+    width: 48%;
+    padding-left: 2px;
+    }
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+legend {
+    font-size: 2rem;
+    background-color: white;
+    border: 1px #DDD solid;
+    padding: 15px;
+}
+
+fieldset {
+    background-color: #F5F5F5;
+    border: 1px #DDD solid;
+}
+
+h1 {
+    color: black;
+    text-align: left;
+    padding: 5px;
+}
+
+input#fname {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px #DDD solid;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input#email {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px #DDD solid;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+textarea#message {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px #DDD solid;
+    border-radius: 6px;
+    resize: none;
+}
+
+input#send {
+    width: 100%;
+    background-color: #6495ED;
+    color: white;
+    font-size: 16px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 25rem)
+    .wrapper {
+		width: 25rem;
+        margin: 0.1rem auto;   
+	}
+
+    .name {
+        float: left;
+        width: 100%;
+        padding-right: 2px;
+    }
+    
+    .mail {
+        width: 100%;
+        padding-left: 2px;
+    }
+    
+    h1 {
+    color: #FFFFFF;
+    text-align: left;
+    padding: 2px;
+    }
+    
+    input#fname {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px #DDD solid;
+    border-radius: 6px;
+    box-sizing: border-box;
+    }
+    
+    input#email {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px #DDD solid;
+    border-radius: 6px;
+    box-sizing: border-box;
+    }
+
+
+@media only screen and (min-width: 50rem){
+	.wrapper {
+		width: 45rem;
+        margin: 0.1rem auto;   
+	}
+    
+    .name {
+        float: left;
+        width: 48%;
+        padding-right: 2px;
+    }
+    
+    .mail {
+        float: right;
+        width: 48%;
+        padding-left: 2px;
+    }
+    
+    h1 {
+    color: #FFFFFF;
+    text-align: left;
+    padding: 2px;
+    }
+    
+    
+    input#fname {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px #DDD solid;
+    border-radius: 6px;
+    box-sizing: border-box;
+    }
+    
+    input#email {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px #DDD solid;
+    border-radius: 6px;
+    box-sizing: border-box;
+    }
+    
+    input#send {
+    width: 20%;
+    background-color: #6495ED;
+    color: white;
+    font-size: 16px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    }
